@@ -1,0 +1,299 @@
+#header {
+    background-color: #000000;
+    position: relative;
+    margin-bottom: 30px;
+}
+#header .logo{
+    margin:15px;
+}
+#main-navigation ul {
+    margin: 50px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+    }
+
+#main-navigation ul li a{
+    color: white;
+    font-size:15px;
+    display: block;
+    padding: 5px 15px;
+    font-weight: bold;
+
+    
+    
+}
+#main-navigation ul li a:hover {
+    color:red;
+    text-decoration: none;
+}
+
+#navigation_1 ul {
+    margin: 50px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+    }
+#navigation_1 span{
+background-color:coral;
+}
+#navigation_1 span:hover{
+    background-color: white;
+}
+#navigation_1 ul li a{
+    color: white;
+    font-size:15px;
+    display: block;
+    padding: 5px 15px;
+     font-weight: bold;
+}
+#navigation_1 ul li a:hover {
+    color:red;
+    text-decoration: none;
+    
+}
+#section_1{
+
+/*    margin: 20px;*/
+    padding:30px;
+   
+
+}
+#section_1 .latest_songs img{
+    padding-top: 20px;
+   
+/*    overflow:hidden;*/
+}
+#section_1 h2{
+    font-family: "raleway bold";
+    font-size: 3.6em;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+#section_1 .latest_songs img:hover{
+    transform:scale(1.1,1.1);
+   
+    
+}
+#section_1 .play{
+   position:absolute;
+    top:75%;
+    left:42%;
+}
+#section_1 .play_1{
+   position:absolute;
+    top:75%;
+    left:83%;
+}
+
+
+#section_2 {
+
+    padding:40px;
+}
+#section_2 .latest_songs img:hover{
+    transform:scale(1.1,1.1);
+    
+}
+#section_2 .play_2{
+   position:absolute;
+    top:135%;
+    right:54%;
+}
+#section_2 .play_3{
+   position:absolute;
+    top:135%;
+    right:13.5%;
+}
+
+
+
+#abc .col-md-2 {
+    list-style: none;
+    background-color:#D84141;
+    padding:   10px 40px;
+    padding-right:0px;
+    margin-left: 40%;
+    
+}
+#abc .col-md-2 a{
+    font-weight: bold;
+    color:white;
+    
+    
+}
+#abc .col-md-2  a:hover{
+     text-decoration: none;
+    color:black;
+    
+}
+#section_3:before{
+    content:"";
+    border-top:4px solid #cccccc;
+    display:block;
+    margin-top:5%;
+    margin-left:10%;
+    width:80%;
+    
+}
+
+#section_3{
+    padding:30px;
+}
+
+#section_3 .latest_songs img{
+    padding-top:20px;
+}
+#section_3 .latest_songs img:hover{
+transform: scale(1.1,1.1);
+}
+#section_3 h2{
+    font-family: "raleway bold";
+    font-weight: bold;
+    font-size: 3.6em;
+    letter-spacing: .1em;
+    padding-top:30px;
+}
+#section_3 .play_4{
+   position:absolute;
+    top:225%;
+    left:41%;
+}
+#section_3 .play_5{
+   position:absolute;
+    top:224%;
+    left:83%;
+}
+
+ 
+#section_4{
+    padding:25px;
+}
+#section_4 .latest_songs img:hover{
+transform:  scale(1.1,1.1);
+}
+#section_4 .play_6{
+   position:absolute;
+    top:275%;
+    left:41%;
+}
+#section_4 .play_7{
+   position:absolute;
+    top:275%;
+    right:13.5%;
+}
+
+.col-md-3 {
+    width:320px;
+    padding-top:50px;
+     list-style: none;
+    background-color:#D84141;
+    padding: 10px 30px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+
+.col-md-3 a{
+    font-weight: bold;
+    color:white;
+        
+}
+.col-md-3  a:hover{
+     text-decoration: none;
+    color:black;
+    
+}
+#section_5{
+    margin-top: 17%;
+    padding:75px;
+    width:100%;
+    background-color: #EFEFEF;
+    
+}
+
+#section_5 h2{
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: .1em;
+     font-family: "raleway bold";
+    padding-bottom: 5%;
+}
+
+#section_5 .col-sm-4 ul li{
+    list-style:none;
+    padding:10px;
+    width:300px;
+    height:80px;
+    padding-right:90px;
+    background-color: #fff;
+    border-bottom:1px solid #cccccc;
+    }
+
+#section_5 .col-sm-4 ul li a:hover{
+    text-decoration: none;
+}
+
+
+
+#section_5  .list_1 li:first-child {
+    background-color: #888888;
+    color:#fff;
+    
+}
+
+#section_5  .list_2 li:first-child {
+    background-color:#50B0AE;
+    color:#fff;
+    
+}
+
+#section_5  .list_3 li:first-child {
+    background-color:#C29E64;
+    color:#fff;
+    
+}
+#section_5 h4{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#section_5 .list_1 span {
+    background-color:#D84141;
+    padding: 10px 20px;
+    margin-top:60%;
+    color:white;
+}
+#section_5 .list_2 span {
+    background-color:#D84141;
+    padding: 10px 20px;
+    
+    color:white;
+}
+#section_5 .list_3 span {
+    background-color:#D84141;
+    padding: 10px 20px;
+    margin-top:60%;
+    color:white;
+}
+#section_6{
+    background-color: black;
+    width:100%;
+}
+#section_6 .logo{
+    padding-top:5%;
+}
+#section_6 span{
+    color:#777777;
+}
+#section_6  ul li{
+    display:inline-block;
+    padding:10px;
+   
+}
+
